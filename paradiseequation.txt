@@ -1,0 +1,40 @@
+                                                       A The factorial paradise
+
+									time limit per test1 second
+                                                   memory limit per test256 megabytes
+                                                          input standard input
+                                                         output standard output
+
+Akash is a student in IIT Kanpur and has the infamous MTH102 this semester. The assignment requires you to help Akash solve this factorilal
+equation and help get A* grade. 
+Your task is to find all the possible triplets (a,b,c) in which the max(a,b,c)<=k . you must return your answer in a sorted order of (a).
+
+               2^a + 2^b = c!
+
+where 2^b denotes 2 to the power of b and c! denotes c factorial.
+You have to answer t independent test cases.
+
+INPUT:
+
+The first line of the input contains one integer t (1≤t≤100) — the number of test cases. Then t lines describing the test cases follow.
+
+The i-th of these lines contains one integer k (1≤k≤10^5) — the goal of the i-th test case.
+
+OUTPUT:
+
+For each test case, print all the  integer triplets(a,b,c) satisfying the factorial paradise equation in which the max(a,b,c)<=k — in sorted order. IF no such solution exist print -1;
+
+
+Example
+input
+3
+2
+0
+1
+
+Output
+0 0 2
+-1
+-1
+
+
