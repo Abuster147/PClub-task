@@ -1,14 +1,14 @@
                                                            A: TLE toh aayega 
 
-									time limit per test1 second
+						      time limit per test 1 second
                                                    memory limit per test256 megabytes
                                                           input standard input
                                                          output standard output
 
 Akash is a student in IIT Kanpur and has the infamous MTH101 this semester. The assignment requires you to help Akash solve this TLE problem and help get A* grade. 
-You will be given an array and two pairs (l,r)<=n which denotes the indices of the array . 
+You will be given an array and two integers (l,r)<=n which denotes the indices of the array . 
 
-You will have to compute the the gcd(1 to L) and lcm(n to R) and return the sum of these two.
+You will have to compute the the gcd(1 to l) and lcm(r to n) and return the sum of these two.
 
 You have to answer t independent test cases and q queries.
 
@@ -16,7 +16,7 @@ INPUT:
 
 The first line of the input contains one integer t (1≤t≤10^5) — the number of test cases. Then t lines describing the test cases follow.
 
-The i-th of these lines contains two integers n (1≤n≤10^5) and q(1≤q≤10^5) — the length of the array. Then the array is given in N integers.
+The i-th of these lines contains two integers n (1≤n≤10^5) and q(1≤q≤n) — the length of the array. Then the array is given in N integers.
  And q queries follow in q lines where ith line denotes ith query containing ith L and R. 
 
 OUTPUT:
